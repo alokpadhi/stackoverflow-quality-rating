@@ -1,0 +1,7 @@
+{
+    "class_to_index": {
+        "HQ": 0,
+        "LQ_CLOSE": 1,
+        "LQ_EDIT": 2
+    }
+}
