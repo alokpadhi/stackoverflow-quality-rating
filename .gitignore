@@ -11,3 +11,9 @@
 .ipynb_checkpoints
 /notebooks/data_exploration_processing/.ipynb_checkpoints
 /notebooks/modeling/.ipynb_checkpoints
+
+# model artifacts
+/model-artifacts/*
+
+# artifacts
+/artifacts/*
