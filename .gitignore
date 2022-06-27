@@ -1,0 +1,13 @@
+# other datasets
+/datasets/preprocessed
+/datasets/train.csv
+/datasets/valid.csv
+
+# wandb logs
+/notebooks/data_exploration_processing/wandb
+/notebooks/modeling/wandb
+
+# notebook checkpoints
+.ipynb_checkpoints
+/notebooks/data_exploration_processing/.ipynb_checkpoints
+/notebooks/modeling/.ipynb_checkpoints
