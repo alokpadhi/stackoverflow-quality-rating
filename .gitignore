@@ -17,3 +17,6 @@
 
 # artifacts
 /artifacts/*
+
+# embeddings
+/embeddings/*
