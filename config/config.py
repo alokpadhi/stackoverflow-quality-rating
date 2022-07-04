@@ -12,10 +12,12 @@ CONFIG_DIR = Path(BASE_DIR, "config")
 LOGS_DIR = Path(BASE_DIR, "logs")
 DATA_DIR = Path(BASE_DIR, "datasets")
 ARTIFACTS = Path(BASE_DIR, "artifacts")
+WANDB_ARTIFACTS = Path(BASE_DIR, "wandb_artifacts")
 
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 ARTIFACTS.mkdir(parents=True, exist_ok=True)
+WANDB_ARTIFACTS.mkdir(parents=True, exist_ok=True)
 
 STOPWORDS = stopwords.words('english')
 
