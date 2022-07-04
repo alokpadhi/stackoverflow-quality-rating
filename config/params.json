@@ -1,0 +1,21 @@
+{
+    "seed": 42,
+    "cuda": false,
+    "shuffle": true,
+    "num_samples": null,
+    "lower": true,
+    "stem": false,
+    "train_size": 0.7,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "patience": 4,
+    "num_epochs": 1,
+    "num_classes": 3,
+    "embedding_type": "glove",
+    "embedding_dim": 100,
+    "rnn_hidden_dim": 128,
+    "hidden_dim": 100,
+    "dropout": 0.1,
+    "freeze_embedding_or_not": false,
+    "embedding_fp": "embeddings/glove.6B.100d.txt"
+}

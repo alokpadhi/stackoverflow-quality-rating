@@ -1,7 +1,6 @@
 # other datasets
-/datasets/preprocessed
-/datasets/train.csv
-/datasets/valid.csv
+/datasets/*
+/datasets/V1/*
 
 # wandb logs
 /notebooks/data_exploration_processing/wandb
@@ -20,3 +19,13 @@
 
 # embeddings
 /embeddings/*
+
+/venv/*
+/stackoverflow_quality.egg-info/*
+
+/wandb/*
+/wandb_artifacts/*
+/logs/*
+
+/stackoverflow_quality/__pycache__/*
+/config/__pycache__/*
