@@ -4,6 +4,9 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from typing import Dict
+import json
+from urllib.request import urlopen
 
 
 def set_seeds(seed=1234):
@@ -33,3 +36,17 @@ def set_device(cuda=False):
         torch.set_default_tensor_type("torch.cuda.FloatTensor")
 
     return device
+
+
+def load_dict(filepath: str) -> Dict:
+    """Load the dictionary from filepath
+
+    Args:
+        filepath (str): filepath of the JSON file
+
+    Returns:
+        Dict: Returns the loaded json file in Dict
+    """
+    with open(filepath) as fp:
+        d = json.load(fp)
+        return d
