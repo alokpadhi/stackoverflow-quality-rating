@@ -22,3 +22,10 @@
 
 /venv/*
 /stackoverflow_quality.egg-info/*
+
+/wandb/*
+/wandb_artifacts/*
+/logs/*
+
+/stackoverflow_quality/__pycache__/*
+/config/__pycache__/*
